@@ -1,12 +1,16 @@
 <?php
 class Shape{
+    //Constant
  const SHAPE_TYPE = 1;
+
+    //Properties
     public $name;
     protected $length;
     protected $width;
     private $id;
 
-    function _construct($length, $width){
+    //Constructor
+    function __construct($length, $width){
         $this->length = $length;
         $this->width = $width;
         $this->id = uniqid();

@@ -5,7 +5,7 @@ class Circle extends Shape{
 
     function __construct($radius){
         $this->radius = $radius;
-        parent::_construct(0,0);
+        parent::__construct(0,0);
     }
 
     public function __area($radius){
