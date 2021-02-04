@@ -22,8 +22,7 @@ class Shape{
     }
 
     public function area($length, $width){
-        $result =$length * $width;
-        echo $result;
+       echo $length * $width;
     }
 
     public static function getTypeDescription(){
