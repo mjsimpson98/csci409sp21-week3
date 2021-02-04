@@ -12,9 +12,9 @@ class Circle extends Shape{
         return pi() * $radius;
 
     }
-    public function __getFullDescription($id, $name, $radius){
-       echo "Circle<$id>: $name - $radius";
-
+    public function getFullDescription()
+    {
+        return parent::getFullDescription();
     }
 
 }

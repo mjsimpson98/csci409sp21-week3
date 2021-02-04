@@ -25,17 +25,17 @@ class Shape{
         return $this->id;
     }
 
-    public function area($length, $width){
-       return $length * $width;
+    public function area(){
+       return $this->length * $this->width;
 
     }
 
     public static function getTypeDescription(){
-        echo static::SHAPE_TYPE;
+        return static::SHAPE_TYPE;
     }
 
-    public function getFullDescription($id, $name, $length, $width){
-        echo "Shape<$id>: $name - $length x $width";
+    public function getFullDescription(){
+        return "Shape<$this->id>: $this->name - $this->length x $this->width";
     }
 }
 
