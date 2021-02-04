@@ -7,4 +7,3 @@ class Rectangle extends Shape{
         echo "Rectangle<$id>: $name - $length x $width";
     }
     }
-    ?>

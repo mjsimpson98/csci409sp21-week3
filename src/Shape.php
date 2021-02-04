@@ -14,8 +14,8 @@ class Shape{
     function getName(){
         return $this->name;
     }
-    function setName(){
-
+    function setName($name){
+    $this->name = $name;
     }
     function getId(){
         return $this->id;
