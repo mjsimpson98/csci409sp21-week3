@@ -35,6 +35,6 @@ class Shape{
     }
 
     public function getFullDescription(){
-        return "Shape <#$this->id>: $this->name - $this->length x $this->width";
+        return "Shape<#$this->id>: $this->name - $this->length x $this->width";
     }
 }

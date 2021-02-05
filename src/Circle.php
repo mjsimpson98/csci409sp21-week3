@@ -9,11 +9,11 @@ class Circle extends Shape{
     }
 
     public function __area($radius){
-        echo pi() * pow($radius,2);
+        echo (pi() * pow($radius,2));
 
     }
     public function getFullDescription(){
-        return "Circle <#" . $this->getId() . ">: $this->name - $this->radius";
+        return "Circle<#" . $this->getId() . ">: $this->name - $this->radius";
     }
 
 }
