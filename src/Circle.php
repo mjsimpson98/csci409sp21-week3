@@ -8,7 +8,7 @@ class Circle extends Shape{
         parent::__construct(0,0);
     }
 
-    public function __area($radius){
+    public function area(){
         return pi() * pow($this->radius,2);
 
     }
