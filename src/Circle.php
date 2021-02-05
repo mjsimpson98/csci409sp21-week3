@@ -9,7 +9,7 @@ class Circle extends Shape{
     }
 
     public function __area($radius){
-        return (pi() * pow($this->radius,2));
+        return pi() * pow($this->radius,2);
 
     }
     public function getFullDescription(){
