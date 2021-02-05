@@ -9,12 +9,11 @@ class Circle extends Shape{
     }
 
     public function __area($radius){
-        return (pi() * (pow($radius,2)));
+        return pi() * pow($radius,2);
 
     }
-    public function getFullDescription()
-    {
-        return parent::getFullDescription();
+    public function getFullDescription(){
+        return "Shape <#" . $this->getId() . ">: $this->name - $this->radius";
     }
 
 }
